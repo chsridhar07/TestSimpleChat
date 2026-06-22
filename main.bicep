@@ -224,7 +224,7 @@ var resolvedOpenAIDeploymentType = isUsGovernmentCloud ? 'Standard' : openAIDepl
 var defaultGptModels = [
   {
     modelName: 'gpt-4o'
-    modelVersion: isUsGovernmentCloud ? '2024-05-13' : '2024-11-20'
+    modelVersion: isUsGovernmentCloud ? '2024-08-06' : '2024-11-20'
     skuName: resolvedOpenAIDeploymentType
     skuCapacity: 100
   }
@@ -281,17 +281,14 @@ var acrIpRules = [
     value: ip
   }
 ]
-#disable-next-line BCP318 // value can't be null when a new virtual network is created
 var resolvedVirtualNetworkId = enablePrivateNetworking
-  ? (useExistingVirtualNetwork ? resolvedExistingVirtualNetworkId : virtualNetwork.outputs.vNetId)
+  ? (useExistingVirtualNetwork ? resolvedExistingVirtualNetworkId : virtualNetwork!.outputs.vNetId)
   : ''
-#disable-next-line BCP318 // value can't be null when a new virtual network is created
 var resolvedAppServiceSubnetId = enablePrivateNetworking
-  ? (useExistingVirtualNetwork ? existingAppServiceSubnetId : virtualNetwork.outputs.appServiceSubnetId)
+  ? (useExistingVirtualNetwork ? existingAppServiceSubnetId : virtualNetwork!.outputs.appServiceSubnetId)
   : ''
-#disable-next-line BCP318 // value can't be null when a new virtual network is created
 var resolvedPrivateEndpointSubnetId = enablePrivateNetworking
-  ? (useExistingVirtualNetwork ? existingPrivateEndpointSubnetId : virtualNetwork.outputs.privateNetworkSubnetId)
+  ? (useExistingVirtualNetwork ? existingPrivateEndpointSubnetId : virtualNetwork!.outputs.privateNetworkSubnetId)
   : ''
 
 //=========================================================
@@ -749,12 +746,12 @@ output var_subscriptionId string = subscription().subscriptionId
 output var_videoIndexerArmApiVersion string = resolvedVideoIndexerArmApiVersion
 #disable-next-line BCP318 // expect one value to be null
 output var_videoIndexerAccountId string = deployVideoIndexerService
-  ? videoIndexerService.outputs.videoIndexerAccountId
+  ? videoIndexerService!.outputs.videoIndexerAccountId
   : ''
 output var_videoIndexerEndpoint string = resolvedVideoIndexerEndpoint
 #disable-next-line BCP318 // expect one value to be null
 output var_videoIndexerName string = deployVideoIndexerService
-  ? videoIndexerService.outputs.videoIndexerServiceName
+  ? videoIndexerService!.outputs.videoIndexerServiceName
   : ''
 
 // output values required for predeploy script in azure.yaml
