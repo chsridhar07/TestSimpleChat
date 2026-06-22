@@ -1,0 +1,112 @@
+# azure-pipelines-app-dev.yml
+# Builds/pushes SimpleChat app image for dev to ACR and optionally rolls out the new tag to the dev web app.
+trigger:
+  branches:
+    include:
+    - main
+  paths:
+    include:
+    - application/single_app/**
+    - docker-customization/**
+
+pr:
+  branches:
+    include:
+    - main
+  paths:
+    include:
+    - application/single_app/**
+    - docker-customization/**
+
+parameters:
+- name: azureServiceConnection
+  displayName: Azure service connection name
+  type: string
+  default: OIG_DevTest
+- name: appName
+  displayName: App name
+  type: string
+  default: simplechat
+- name: environment
+  displayName: Environment
+  type: string
+  default: dev
+- name: imageRepository
+  displayName: Image repository name
+  type: string
+  default: simplechat
+- name: imageTag
+  displayName: Image tag
+  type: string
+  default: $(Build.BuildId)
+- name: deployWebApp
+  displayName: Deploy web app after image push
+  type: boolean
+  default: false
+
+pool:
+  name: Azure-gov_bridge
+
+stages:
+- stage: BuildAndPush
+  displayName: Build and Push Image (dev)
+  jobs:
+  - job: ACRBuild
+    displayName: ACR Task Build
+    steps:
+    - checkout: self
+
+    - task: AzureCLI@2
+      displayName: Build and push image using az acr build
+      inputs:
+        azureSubscription: ${{ parameters.azureServiceConnection }}
+        scriptType: pscore
+        scriptLocation: inlineScript
+        inlineScript: |
+          $ErrorActionPreference = "Stop"
+
+          $acrName = ("${{ parameters.appName }}${{ parameters.environment }}acr").ToLower()
+          $imageRepo = "${{ parameters.imageRepository }}"
+          $tag = "${{ parameters.imageTag }}"
+
+          az acr build `
+            --registry $acrName `
+            --image "${imageRepo}:${tag}" `
+            --image "${imageRepo}:latest" `
+            --file "$(Build.SourcesDirectory)/application/single_app/Dockerfile" `
+            "$(Build.SourcesDirectory)"
+
+- stage: DeployWebApp
+  displayName: Optional App Service rollout (dev)
+  dependsOn: BuildAndPush
+  condition: and(succeeded(), eq('${{ parameters.deployWebApp }}', 'true'))
+  jobs:
+  - job: UpdateContainer
+    displayName: Update web app container config
+    steps:
+    - task: AzureCLI@2
+      displayName: Set image tag and restart web app
+      inputs:
+        azureSubscription: ${{ parameters.azureServiceConnection }}
+        scriptType: pscore
+        scriptLocation: inlineScript
+        inlineScript: |
+          $ErrorActionPreference = "Stop"
+
+          $acrName = ("${{ parameters.appName }}${{ parameters.environment }}acr").ToLower()
+          $webAppName = ("${{ parameters.appName }}-${{ parameters.environment }}-app").ToLower()
+          $rgName = ("${{ parameters.appName }}-${{ parameters.environment }}-rg").ToLower()
+          $loginServer = az acr show -n $acrName --query loginServer -o tsv
+          $acrUser = az acr credential show -n $acrName --query username -o tsv
+          $acrPass = az acr credential show -n $acrName --query "passwords[0].value" -o tsv
+          $image = "${loginServer}/${{ parameters.imageRepository }}:${{ parameters.imageTag }}"
+
+          az webapp config container set `
+            --name $webAppName `
+            --resource-group $rgName `
+            --container-image-name $image `
+            --container-registry-url "https://${loginServer}" `
+            --container-registry-user $acrUser `
+            --container-registry-password $acrPass
+
+          az webapp restart --name $webAppName --resource-group $rgName
