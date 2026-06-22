@@ -1,0 +1,144 @@
+# azure-pipelines-infra-dev.yml
+# Provisions/updates SimpleChat infrastructure for the dev environment using subscription-scope Bicep.
+trigger: none
+pr: none
+
+parameters:
+- name: azureServiceConnection
+  displayName: Azure service connection name
+  type: string
+  default: OIG_DevTest
+- name: enterpriseAppClientId
+  displayName: Entra enterprise app client ID
+  type: string
+  default: '1ad2554f-7d8c-4555-a4a5-ddb333f9fb30'
+- name: enterpriseAppServicePrincipalId
+  displayName: Entra enterprise app service principal ID
+  type: string
+  default: '96c81fab-404e-4b6d-a6cd-e6deb16fb605'
+- name: enterpriseAppClientSecret
+  displayName: Entra enterprise app client secret
+  type: string
+  default: 'q46_DB-FD5aHm0o-aL~3~oI8_M~rIJgxHq'
+- name: location
+  displayName: Azure location
+  type: string
+  default: usgovvirginia
+- name: cloudEnvironment
+  displayName: Cloud environment
+  type: string
+  default: AzureUSGovernment
+- name: appName
+  displayName: App name
+  type: string
+  default: simplechat
+- name: environment
+  displayName: Environment
+  type: string
+  default: dev
+- name: azdEnvironmentName
+  displayName: AZD environment name
+  type: string
+  default: dev
+- name: authenticationType
+  displayName: Authentication type
+  type: string
+  default: key
+  values:
+  - key
+  - managed_identity
+- name: configureApplicationPermissions
+  displayName: Configure application permissions
+  type: boolean
+  default: true
+- name: enableDiagLogging
+  displayName: Enable diagnostic logging
+  type: boolean
+  default: true
+- name: enablePrivateNetworking
+  displayName: Enable private networking
+  type: boolean
+  default: false
+- name: openAIDeploymentType
+  displayName: OpenAI deployment type
+  type: string
+  default: Standard
+  values:
+  - Standard
+  - DatazoneStandard
+  - GlobalStandard
+- name: deployContentSafety
+  displayName: Deploy Content Safety
+  type: boolean
+  default: false
+- name: deployRedisCache
+  displayName: Deploy Redis Cache
+  type: boolean
+  default: true
+- name: deploySpeechService
+  displayName: Deploy Speech Service
+  type: boolean
+  default: false
+- name: deployVideoIndexerService
+  displayName: Deploy Video Indexer Service
+  type: boolean
+  default: false
+
+pool:
+  name: Azure-gov_bridge
+
+stages:
+- stage: ProvisionInfra
+  displayName: Provision SimpleChat Infra (dev)
+  jobs:
+  - job: DeployBicep
+    displayName: Deploy subscription-scope Bicep
+    steps:
+    - checkout: self
+
+    - task: AzureCLI@2
+      displayName: Run Bicep deployment
+      inputs:
+        azureSubscription: ${{ parameters.azureServiceConnection }}
+        scriptType: pscore
+        scriptLocation: inlineScript
+        inlineScript: |
+          $ErrorActionPreference = "Stop"
+
+          az bicep install
+
+          $deploymentName = "${{ parameters.appName }}-${{ parameters.environment }}-infra-$(Build.BuildId)"
+
+          az deployment sub create `
+            --name $deploymentName `
+            --location "${{ parameters.location }}" `
+            --template-file "$(Build.SourcesDirectory)/deployers/bicep/main.bicep" `
+            --parameters `
+              location="${{ parameters.location }}" `
+              cloudEnvironment="${{ parameters.cloudEnvironment }}" `
+              appName="${{ parameters.appName }}" `
+              environment="${{ parameters.environment }}" `
+              azdEnvironmentName="${{ parameters.azdEnvironmentName }}" `
+              enterpriseAppClientId="${{ parameters.enterpriseAppClientId }}" `
+              enterpriseAppServicePrincipalId="${{ parameters.enterpriseAppServicePrincipalId }}" `
+              enterpriseAppClientSecret="${{ parameters.enterpriseAppClientSecret }}" `
+              authenticationType="${{ parameters.authenticationType }}" `
+              configureApplicationPermissions=${{ parameters.configureApplicationPermissions }} `
+              enableDiagLogging=${{ parameters.enableDiagLogging }} `
+              enablePrivateNetworking=${{ parameters.enablePrivateNetworking }} `
+              openAIDeploymentType="${{ parameters.openAIDeploymentType }}" `
+              deployContentSafety=${{ parameters.deployContentSafety }} `
+              deployRedisCache=${{ parameters.deployRedisCache }} `
+              deploySpeechService=${{ parameters.deploySpeechService }} `
+              deployVideoIndexerService=${{ parameters.deployVideoIndexerService }}
+
+          $outputs = az deployment sub show --name $deploymentName --query properties.outputs -o json
+          $outPath = "$(Build.ArtifactStagingDirectory)/infra-outputs-dev.json"
+          $outputs | Out-File -FilePath $outPath -Encoding utf8
+
+    - task: PublishBuildArtifacts@1
+      displayName: Publish infra outputs (on-prem compatible)
+      inputs:
+        PathtoPublish: $(Build.ArtifactStagingDirectory)/infra-outputs-dev.json
+        ArtifactName: infraOutputsDev
+        publishLocation: Container
