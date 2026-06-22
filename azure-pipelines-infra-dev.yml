@@ -83,6 +83,10 @@ parameters:
   displayName: Deploy Video Indexer Service
   type: boolean
   default: false
+- name: resourceGroupName
+  displayName: Resource group name (leave blank to auto-generate as appName-environment-rg)
+  type: string
+  default: ''
 
 pool:
   name: Azure-gov_bridge
@@ -118,6 +122,7 @@ stages:
               cloudEnvironment="${{ parameters.cloudEnvironment }}" `
               appName="${{ parameters.appName }}" `
               environment="${{ parameters.environment }}" `
+              resourceGroupName="${{ parameters.resourceGroupName }}" `
               azdEnvironmentName="${{ parameters.azdEnvironmentName }}" `
               enterpriseAppClientId="${{ parameters.enterpriseAppClientId }}" `
               enterpriseAppServicePrincipalId="${{ parameters.enterpriseAppServicePrincipalId }}" `

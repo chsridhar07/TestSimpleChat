@@ -9,15 +9,19 @@ param location string
 - Accepted values are: AzureCloud, AzureUSGovernment, public, usgovernment, custom
 - Default is based on the ARM cloud name''')
 @allowed([
-  'AzureCloud'        // public, keep allowed values for backwards compatibility
+  'AzureCloud' // public, keep allowed values for backwards compatibility
   'AzureUSGovernment' // usgovernment
-  'public'             
-  'usgovernment'       
+  'public'
+  'usgovernment'
   'custom'
 ])
-param cloudEnvironment string = az.environment().name == 'AzureCloud' ? 'public' : (az.environment().name == 'AzureUSGovernment' ? 'usgovernment' : 'custom')
+param cloudEnvironment string = az.environment().name == 'AzureCloud'
+  ? 'public'
+  : (az.environment().name == 'AzureUSGovernment' ? 'usgovernment' : 'custom')
 // SimpleChat expects public, usgovernment or custom
-var scCloudEnvironment = cloudEnvironment == 'AzureCloud' ? 'public' : (cloudEnvironment == 'AzureUSGovernment' ? 'usgovernment' : cloudEnvironment)
+var scCloudEnvironment = cloudEnvironment == 'AzureCloud'
+  ? 'public'
+  : (cloudEnvironment == 'AzureUSGovernment' ? 'usgovernment' : cloudEnvironment)
 
 @description('''The name of the application to be deployed.  
 - Name may only contain letters and numbers
@@ -197,10 +201,15 @@ param deploySpeechService bool
 - Default is false''')
 param deployVideoIndexerService bool
 
+@description('''Optional custom resource group name.
+- When provided, this name is used as-is for the resource group.
+- When left blank, the name is auto-generated as <appName>-<environment>-rg''')
+param resourceGroupName string = ''
+
 //=========================================================
 // variable declarations for the main deployment 
 //=========================================================
-var rgName = '${appName}-${environment}-rg'
+var rgName = empty(resourceGroupName) ? '${appName}-${environment}-rg' : resourceGroupName
 var requiredTags = { application: appName, environment: environment, 'azd-env-name': azdEnvironmentName }
 var tags = union(requiredTags, specialTags)
 var isPublicCloud = scCloudEnvironment == 'public'
@@ -241,31 +250,49 @@ var resolvedGptModels = empty(gptModels) ? defaultGptModels : gptModels
 var resolvedEmbeddingModels = empty(embeddingModels) ? defaultEmbeddingModels : embeddingModels
 var resolvedVideoIndexerArmApiVersion = scCloudEnvironment == 'usgovernment'
   ? '2024-01-01'
-  : (scCloudEnvironment == 'custom' && !empty(customVideoIndexerArmApiVersion) ? customVideoIndexerArmApiVersion : '2025-04-01')
+  : (scCloudEnvironment == 'custom' && !empty(customVideoIndexerArmApiVersion)
+      ? customVideoIndexerArmApiVersion
+      : '2025-04-01')
 var resolvedVideoIndexerEndpoint = scCloudEnvironment == 'usgovernment'
   ? 'https://api.videoindexer.ai.azure.us'
-  : (scCloudEnvironment == 'custom' && !empty(customVideoIndexerEndpoint) ? customVideoIndexerEndpoint : 'https://api.videoindexer.ai')
+  : (scCloudEnvironment == 'custom' && !empty(customVideoIndexerEndpoint)
+      ? customVideoIndexerEndpoint
+      : 'https://api.videoindexer.ai')
 var videoIndexerSupportsOpenAiIntegration = resolvedVideoIndexerArmApiVersion == '2025-04-01'
 var videoIndexerSupportsPrivateEndpoints = resolvedVideoIndexerArmApiVersion == '2025-04-01'
 var hasExistingAppServiceSubnetId = !empty(existingAppServiceSubnetId)
 var hasExistingPrivateEndpointSubnetId = !empty(existingPrivateEndpointSubnetId)
-var inferredVirtualNetworkId = hasExistingAppServiceSubnetId ? split(existingAppServiceSubnetId, '/subnets/')[0] : (hasExistingPrivateEndpointSubnetId ? split(existingPrivateEndpointSubnetId, '/subnets/')[0] : '')
-var resolvedExistingVirtualNetworkId = !empty(existingVirtualNetworkId) ? existingVirtualNetworkId : inferredVirtualNetworkId
+var inferredVirtualNetworkId = hasExistingAppServiceSubnetId
+  ? split(existingAppServiceSubnetId, '/subnets/')[0]
+  : (hasExistingPrivateEndpointSubnetId ? split(existingPrivateEndpointSubnetId, '/subnets/')[0] : '')
+var resolvedExistingVirtualNetworkId = !empty(existingVirtualNetworkId)
+  ? existingVirtualNetworkId
+  : inferredVirtualNetworkId
 var useExistingVirtualNetwork = enablePrivateNetworking && (!empty(resolvedExistingVirtualNetworkId) || hasExistingAppServiceSubnetId || hasExistingPrivateEndpointSubnetId)
 var allowedIpsForCosmos = union(['0.0.0.0'], allowedIpAddressesArray)
-var cosmosDbIpRules = [for ip in allowedIpsForCosmos: {
-  ipAddressOrRange: ip
-}]
-var acrIpRules = [for ip in allowedIpAddressesArray: {
-  action: 'Allow'
-  value: ip
-}]
+var cosmosDbIpRules = [
+  for ip in allowedIpsForCosmos: {
+    ipAddressOrRange: ip
+  }
+]
+var acrIpRules = [
+  for ip in allowedIpAddressesArray: {
+    action: 'Allow'
+    value: ip
+  }
+]
 #disable-next-line BCP318 // value can't be null when a new virtual network is created
-var resolvedVirtualNetworkId = enablePrivateNetworking ? (useExistingVirtualNetwork ? resolvedExistingVirtualNetworkId : virtualNetwork.outputs.vNetId) : ''
+var resolvedVirtualNetworkId = enablePrivateNetworking
+  ? (useExistingVirtualNetwork ? resolvedExistingVirtualNetworkId : virtualNetwork.outputs.vNetId)
+  : ''
 #disable-next-line BCP318 // value can't be null when a new virtual network is created
-var resolvedAppServiceSubnetId = enablePrivateNetworking ? (useExistingVirtualNetwork ? existingAppServiceSubnetId : virtualNetwork.outputs.appServiceSubnetId) : ''
+var resolvedAppServiceSubnetId = enablePrivateNetworking
+  ? (useExistingVirtualNetwork ? existingAppServiceSubnetId : virtualNetwork.outputs.appServiceSubnetId)
+  : ''
 #disable-next-line BCP318 // value can't be null when a new virtual network is created
-var resolvedPrivateEndpointSubnetId = enablePrivateNetworking ? (useExistingVirtualNetwork ? existingPrivateEndpointSubnetId : virtualNetwork.outputs.privateNetworkSubnetId) : ''
+var resolvedPrivateEndpointSubnetId = enablePrivateNetworking
+  ? (useExistingVirtualNetwork ? existingPrivateEndpointSubnetId : virtualNetwork.outputs.privateNetworkSubnetId)
+  : ''
 
 //=========================================================
 // Resource group deployment
@@ -628,7 +655,6 @@ module setPermissions 'modules/setPermissions.bicep' = if (configureApplicationP
   name: 'setPermissions'
   scope: rg
   params: {
-
     webAppName: appService.outputs.name
     authenticationType: authenticationType
     enterpriseAppServicePrincipalId: enterpriseAppServicePrincipalId
@@ -661,7 +687,6 @@ module privateNetworking 'modules/privateNetworking.bicep' = if (enablePrivateNe
   name: 'privateNetworking'
   scope: rg
   params: {
-
     virtualNetworkId: resolvedVirtualNetworkId
     privateEndpointSubnetId: resolvedPrivateEndpointSubnetId
     privateDnsZoneConfigs: privateDnsZoneConfigs
@@ -681,7 +706,7 @@ module privateNetworking 'modules/privateNetworking.bicep' = if (enablePrivateNe
     openAIResourceGroupName: openAI.outputs.openAIResourceGroup
     openAISubscriptionId: openAI.outputs.openAISubscriptionId
     webAppName: appService.outputs.name
-    
+
     #disable-next-line BCP318 // expect one value to be null
     contentSafetyName: deployContentSafety ? contentSafety.outputs.contentSafetyName : ''
     #disable-next-line BCP318 // expect one value to be null
@@ -692,11 +717,9 @@ module privateNetworking 'modules/privateNetworking.bicep' = if (enablePrivateNe
   }
 }
 
-
 //=========================================================
 // output values
 //=========================================================
-
 
 // output values required for postprovision script in azure.yaml
 output var_acrName string = toLower('${appName}${environment}acr')
@@ -725,21 +748,22 @@ output var_speechServiceEndpoint string = deploySpeechService ? speechService.ou
 output var_subscriptionId string = subscription().subscriptionId
 output var_videoIndexerArmApiVersion string = resolvedVideoIndexerArmApiVersion
 #disable-next-line BCP318 // expect one value to be null
-output var_videoIndexerAccountId string = deployVideoIndexerService ? videoIndexerService.outputs.videoIndexerAccountId : ''
+output var_videoIndexerAccountId string = deployVideoIndexerService
+  ? videoIndexerService.outputs.videoIndexerAccountId
+  : ''
 output var_videoIndexerEndpoint string = resolvedVideoIndexerEndpoint
 #disable-next-line BCP318 // expect one value to be null
-output var_videoIndexerName string = deployVideoIndexerService ? videoIndexerService.outputs.videoIndexerServiceName : ''
+output var_videoIndexerName string = deployVideoIndexerService
+  ? videoIndexerService.outputs.videoIndexerServiceName
+  : ''
 
 // output values required for predeploy script in azure.yaml
 output var_containerRegistry string = containerRegistry
 output var_imageName string = contains(imageName, ':') ? split(imageName, ':')[0] : imageName
 //output var_imageTag string = split(imageName, ':')[1]
-output var_imageTag string = contains(imageName, ':')
-  ? split(imageName, ':')[1]
-  : 'latest'
+output var_imageTag string = contains(imageName, ':') ? split(imageName, ':')[1] : 'latest'
 
 output var_webService string = appService.outputs.name
 
 // output values required for postup script in azure.yaml
 output var_enablePrivateNetworking bool = enablePrivateNetworking
-
