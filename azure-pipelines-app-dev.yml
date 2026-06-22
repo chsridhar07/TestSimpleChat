@@ -39,6 +39,10 @@ parameters:
   displayName: Image tag
   type: string
   default: $(Build.BuildId)
+- name: resourceGroupName
+  displayName: Resource group name (leave blank to auto-generate as appName-environment-rg)
+  type: string
+  default: ''
 - name: deployWebApp
   displayName: Deploy web app after image push
   type: boolean
@@ -104,7 +108,10 @@ stages:
 
           $acrName = ("${{ parameters.appName }}${{ parameters.environment }}acr").ToLower()
           $webAppName = ("${{ parameters.appName }}-${{ parameters.environment }}-app").ToLower()
-          $rgName = ("${{ parameters.appName }}-${{ parameters.environment }}-rg").ToLower()
+          $rgName = "${{ parameters.resourceGroupName }}"
+          if ([string]::IsNullOrWhiteSpace($rgName)) {
+            $rgName = ("${{ parameters.appName }}-${{ parameters.environment }}-rg").ToLower()
+          }
           $loginServer = az acr show -n $acrName --query loginServer -o tsv
           $acrUser = az acr credential show -n $acrName --query username -o tsv
           $acrPass = az acr credential show -n $acrName --query "passwords[0].value" -o tsv
