@@ -65,6 +65,12 @@ stages:
         inlineScript: |
           $ErrorActionPreference = "Stop"
 
+          # Fix Unicode encoding issue with Azure CLI on Windows
+          [Console]::InputEncoding = [System.Text.Encoding]::UTF8
+          [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+          $env:PYTHONIOENCODING = "utf-8"
+          $env:PYTHONUTF8 = 1
+
           $acrName = ("${{ parameters.appName }}${{ parameters.environment }}acr").ToLower()
           $imageRepo = "${{ parameters.imageRepository }}"
           $tag = "${{ parameters.imageTag }}"
@@ -73,6 +79,9 @@ stages:
             --registry $acrName `
             --image "${imageRepo}:${tag}" `
             --image "${imageRepo}:latest" `
+            --no-logs `
+            --only-show-errors `
+            --output none `
             --file "$(Build.SourcesDirectory)/application/single_app/Dockerfile" `
             "$(Build.SourcesDirectory)"
 
