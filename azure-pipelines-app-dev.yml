@@ -43,10 +43,6 @@ parameters:
   displayName: Resource group name (leave blank to auto-generate as appName-environment-rg)
   type: string
   default: ''
-- name: deployWebApp
-  displayName: Deploy web app after image push
-  type: boolean
-  default: false
 
 pool:
   name: Azure-gov_bridge
@@ -90,9 +86,9 @@ stages:
             "$(Build.SourcesDirectory)"
 
 - stage: DeployWebApp
-  displayName: Optional App Service rollout (dev)
+  displayName: App Service rollout (dev)
   dependsOn: BuildAndPush
-  condition: and(succeeded(), eq('${{ parameters.deployWebApp }}', 'true'))
+  condition: succeeded()
   jobs:
   - job: UpdateContainer
     displayName: Update web app container config
@@ -115,7 +111,7 @@ stages:
           $loginServer = az acr show -n $acrName --query loginServer -o tsv
           $acrUser = az acr credential show -n $acrName --query username -o tsv
           $acrPass = az acr credential show -n $acrName --query "passwords[0].value" -o tsv
-          $image = "${loginServer}/${{ parameters.imageRepository }}:${{ parameters.imageTag }}"
+          $image = "${loginServer}/${{ parameters.imageRepository }}:latest"
 
           az webapp config container set `
             --name $webAppName `
