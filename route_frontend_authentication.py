@@ -184,18 +184,18 @@ def register_route_frontend_authentication(app):
             # Only use Front Door redirect URL if Front Door is enabled
             if settings.get('enable_front_door', False):
                 front_door_url = settings.get('front_door_url')
-            if front_door_url:
-                home_url, login_redirect_url = build_front_door_urls(front_door_url)
-                print(f"Redirecting to configured Front Door URL: {home_url}")
-                return redirect(home_url)
-            elif HOME_REDIRECT_URL:
-                # Fall back to environment variable if Front Door is enabled but no URL is set
-                print(f"Redirecting to environment HOME_REDIRECT_URL: {HOME_REDIRECT_URL}")
-                return redirect(HOME_REDIRECT_URL)
-        
-        debug_print(f"Front Door not enabled or URLs not set, falling back to url_for('index')")
-        return redirect(url_for('index')) # Or another appropriate page
-        
+                if front_door_url:
+                    home_url, login_redirect_url = build_front_door_urls(front_door_url)
+                    print(f"Redirecting to configured Front Door URL: {home_url}")
+                    return redirect(home_url)
+                elif HOME_REDIRECT_URL:
+                    # Fall back to environment variable if Front Door is enabled but no URL is set
+                    print(f"Redirecting to environment HOME_REDIRECT_URL: {HOME_REDIRECT_URL}")
+                    return redirect(HOME_REDIRECT_URL)
+            
+            debug_print(f"[AUTHORIZED] Front Door not enabled or URLs not set, falling back to url_for('index')")
+            return redirect(url_for('index')) # Or another appropriate page
+            
         except Exception as e:
             error_msg = f"Authorization callback failed: {str(e)}"
             debug_print(f"[AUTHORIZED] ERROR: {error_msg}")
