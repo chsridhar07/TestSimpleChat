@@ -1,0 +1,1333 @@
+2026-06-24T01:36:22.0594780Z [2026-06-24 01:36:22 +0000] [1] [INFO] Starting gunicorn 25.0.3
+2026-06-24T01:36:22.0674082Z [2026-06-24 01:36:22 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+2026-06-24T01:36:22.0674856Z [2026-06-24 01:36:22 +0000] [1] [INFO] Using worker: gthread
+2026-06-24T01:36:22.0675046Z [2026-06-24 01:36:22 +0000] [7] [INFO] Booting worker with pid: 7
+2026-06-24T01:36:22.0965768Z [2026-06-24 01:36:22 +0000] [8] [INFO] Booting worker with pid: 8
+2026-06-24T01:36:31.5534991Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:31.5545571Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'embed', 'plugin_name': 'EmbeddingModelPlugin'}
+2026-06-24T01:36:31.5575215Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:31.5889950Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:31.5901822Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:31.5914923Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'embed', 'plugin_name': 'EmbeddingModelPlugin'}
+2026-06-24T01:36:31.6804086Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:31.6808630Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:31.6814298Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_tabular_files', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:31.7046589Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:31.7047123Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:31.7050251Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_tabular_files', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:31.7122488Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:31.7122111Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:31.7125029Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'describe_tabular_file', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:31.7396544Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:31.7397991Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:31.7399629Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'describe_tabular_file', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:31.7454270Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:31.7455235Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:31.7464990Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'lookup_value', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:31.7749284Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:31.7750791Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:31.7754580Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'lookup_value', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:31.7978314Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:31.7977540Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:31.7982829Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_distinct_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:31.8069711Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:31.8072200Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:31.8072989Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_distinct_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:31.8281148Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:31.8282302Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:31.8289922Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:31.8383886Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:31.8385859Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:31.8387662Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:31.8682490Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:31.8685362Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:31.8686020Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'aggregate_column', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:31.8700965Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:31.8703376Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:31.8731272Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'aggregate_column', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:31.9012854Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:31.9054048Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:31.9056702Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:31.9057190Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:31.9059989Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:31.9060223Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:31.9347112Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:31.9346570Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:31.9353677Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'search_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:31.9387707Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:31.9388654Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:31.9390660Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'search_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:31.9672570Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:31.9673350Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:31.9680284Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_tabular_data', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:32.0010170Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.0010170Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.0011276Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.0011276Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:32.0011581Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.0011762Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_tabular_data', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:32.0292950Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.0292950Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.0301770Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:32.0327663Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.0335490Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.0347744Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:32.0598206Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.0600214Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.0604658Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:32.0670948Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.0672516Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.0677337Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_aggregate', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:32.0899824Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.0902598Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.0908782Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_aggregate', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:32.0991804Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.0993047Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.0997412Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_datetime_component', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:32.1285848Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.1288612Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.1289263Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_datetime_component', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T01:36:32.3870235Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.3880502Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.3880655Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_available_operations', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T01:36:32.4038840Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.4043048Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.4052289Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_available_operations', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T01:36:32.4172720Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.4173105Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.4175902Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_available_apis', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T01:36:32.4328915Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.4332951Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.4334948Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_available_apis', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T01:36:32.4470563Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.4471003Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.4475702Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'call_operation', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T01:36:32.4630442Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.4631530Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.4635439Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'call_operation', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T01:36:32.4820665Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.4848774Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.4867894Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_database_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T01:36:32.4918341Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.4920706Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.4920983Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_database_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T01:36:32.5131734Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.5142737Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.5143365Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T01:36:32.5204852Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.5213808Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T01:36:32.5214379Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.5411848Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.5412317Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.5418874Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_list', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T01:36:32.5494508Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.5494636Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.5494956Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_list', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T01:36:32.5789102Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.5815434Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.5824378Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T01:36:32.6120423Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.6122866Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.6125564Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_scalar', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T01:36:32.6370384Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.6374277Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.6377838Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'validate_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T01:36:32.6579651Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.6581449Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.6586241Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T01:36:32.6664798Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.6665593Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.6671336Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_database', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T01:36:32.6907426Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.6908660Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.6908864Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_scalar', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T01:36:32.7194163Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.7197382Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'validate_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T01:36:32.7198927Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.7424882Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.7426625Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.7429963Z [Log] [SK Loader] Starting loader imports -- None
+2026-06-24T01:36:32.7435549Z [SK Loader] Starting loader imports
+2026-06-24T01:36:32.7518253Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.7533980Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.7588202Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_database', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T01:36:32.8084192Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:32.8086414Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:32.8101977Z [Log] [SK Loader] Starting loader imports -- None
+2026-06-24T01:36:32.8139480Z [SK Loader] Starting loader imports
+2026-06-24T01:36:33.8320545Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:33.8332129Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:33.8345218Z [Log] [SK Loader] Completed imports -- None
+2026-06-24T01:36:33.8353847Z [SK Loader] Completed imports
+2026-06-24T01:36:33.9221926Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:33.9227687Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:33.9235606Z [Log] [SK Loader] Completed imports -- None
+2026-06-24T01:36:33.9239393Z [SK Loader] Completed imports
+2026-06-24T01:36:35.3444800Z Warning: pydub not available. Audio conversion may fail for non-WAV formats.
+2026-06-24T01:36:35.3470649Z Warning: pydub not available. Audio conversion may fail for non-WAV formats.
+2026-06-24T01:36:35.8402879Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:35.8408793Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:35.8409363Z [Log] App settings loaded from Cosmos DB (forced). -- {'settings_source': 'cosmos_forced', 'use_cosmos': True}
+2026-06-24T01:36:35.8413257Z App settings loaded from Cosmos DB (forced).
+2026-06-24T01:36:35.8428453Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:35.8431116Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:35.8435715Z [Log] App settings loaded from Cosmos DB (forced). -- {'settings_source': 'cosmos_forced', 'use_cosmos': True}
+2026-06-24T01:36:35.8437161Z App settings loaded from Cosmos DB (forced).
+2026-06-24T01:36:43.4766311Z Initializing application...
+2026-06-24T01:36:43.5539536Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T01:36:43.5540637Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T01:36:43.5542431Z [Log] App settings loaded from Cosmos DB (forced). -- {'settings_source': 'cosmos_forced', 'use_cosmos': True}
+2026-06-24T01:36:43.5542823Z App settings loaded from Cosmos DB (forced).
+2026-06-24T01:36:43.5578162Z Preserving existing custom_logo.png; no custom logo base64 value found in settings.
+2026-06-24T01:36:43.5578589Z Preserving existing custom_logo_dark.png; no custom dark logo base64 value found in settings.
+2026-06-24T01:36:43.5578670Z Setting up Application Insights logging...
+2026-06-24T01:36:43.6048264Z Exporter is missing a valid region.
+2026-06-24T01:36:43.6086195Z Exporter is missing a valid region.
+2026-06-24T01:36:43.6584276Z [Azure Monitor] Application Insights enabled for 'azure_monitor' logger
+2026-06-24T01:36:43.6585483Z [Azure Monitor] Testing exception capture...
+2026-06-24T01:36:43.6595057Z [Azure Monitor] Exception capture test completed
+2026-06-24T01:36:43.6887467Z At least one global agent already exists.
+2026-06-24T01:36:43.6934931Z Logging timer background task started.
+2026-06-24T01:36:43.6956478Z Approval expiration background task started.
+2026-06-24T01:36:43.6985312Z Retention policy background task started.
+2026-06-24T01:36:43.6995392Z Application initialized.
+2026-06-24T01:36:43.7070433Z 169.254.129.1 - - [24/Jun/2026:01:36:43 +0000] "GET /robots933456.txt HTTP/1.1" 200 0 "-" "HealthCheck/1.0"
+2026-06-24T01:36:46.9812618Z 169.254.129.4 - - [24/Jun/2026:01:36:46 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "ReadyForRequest/1.0 (HealthCheck)"
+2026-06-24T01:36:51.9988444Z 169.254.129.4 - - [24/Jun/2026:01:36:51 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "ReadyForRequest/1.0 (HealthCheck)"
+2026-06-24T01:36:57.0224340Z 169.254.129.4 - - [24/Jun/2026:01:36:57 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "ReadyForRequest/1.0 (HealthCheck)"
+2026-06-24T01:37:02.0483604Z 169.254.129.4 - - [24/Jun/2026:01:37:02 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "ReadyForRequest/1.0 (HealthCheck)"
+2026-06-24T01:37:07.0640768Z 169.254.129.4 - - [24/Jun/2026:01:37:07 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "ReadyForRequest/1.0 (HealthCheck)"
+2026-06-24T01:37:12.0784318Z 169.254.129.4 - - [24/Jun/2026:01:37:12 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "ReadyForRequest/1.0 (HealthCheck)"
+2026-06-24T01:37:17.0891700Z 169.254.129.4 - - [24/Jun/2026:01:37:17 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "ReadyForRequest/1.0 (HealthCheck)"
+2026-06-24T01:37:22.1030610Z 169.254.129.4 - - [24/Jun/2026:01:37:22 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "ReadyForRequest/1.0 (HealthCheck)"
+2026-06-24T01:37:27.1263373Z 169.254.129.4 - - [24/Jun/2026:01:37:27 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "ReadyForRequest/1.0 (HealthCheck)"
+2026-06-24T01:37:32.1448531Z 169.254.129.4 - - [24/Jun/2026:01:37:32 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "ReadyForRequest/1.0 (HealthCheck)"
+2026-06-24T01:37:37.1673467Z 169.254.129.4 - - [24/Jun/2026:01:37:37 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "ReadyForRequest/1.0 (HealthCheck)"
+2026-06-24T01:37:42.1766211Z 169.254.129.4 - - [24/Jun/2026:01:37:42 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "ReadyForRequest/1.0 (HealthCheck)"
+2026-06-24T01:37:43.7276423Z 169.254.129.4 - - [24/Jun/2026:01:37:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T01:37:47.1899151Z 169.254.129.4 - - [24/Jun/2026:01:37:47 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "ReadyForRequest/1.0 (HealthCheck)"
+2026-06-24T01:37:52.2020207Z 169.254.129.4 - - [24/Jun/2026:01:37:52 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "ReadyForRequest/1.0 (HealthCheck)"
+2026-06-24T01:37:57.2127392Z 169.254.129.4 - - [24/Jun/2026:01:37:57 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "ReadyForRequest/1.0 (HealthCheck)"
+2026-06-24T01:38:43.7290647Z 169.254.129.4 - - [24/Jun/2026:01:38:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T01:39:43.7233515Z 169.254.129.4 - - [24/Jun/2026:01:39:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T01:40:43.7253264Z 169.254.129.4 - - [24/Jun/2026:01:40:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T01:41:43.7277196Z 169.254.129.4 - - [24/Jun/2026:01:41:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T01:42:43.7264673Z 169.254.129.4 - - [24/Jun/2026:01:42:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T01:43:43.7271854Z 169.254.129.4 - - [24/Jun/2026:01:43:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T01:44:43.7251873Z 169.254.129.4 - - [24/Jun/2026:01:44:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T01:45:43.7269673Z 169.254.129.4 - - [24/Jun/2026:01:45:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T01:46:43.7353046Z 169.254.129.4 - - [24/Jun/2026:01:46:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T01:47:43.7257482Z 169.254.129.4 - - [24/Jun/2026:01:47:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T01:48:43.7264978Z 169.254.129.4 - - [24/Jun/2026:01:48:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T01:49:43.7281296Z 169.254.129.4 - - [24/Jun/2026:01:49:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T01:50:43.7270652Z 169.254.129.4 - - [24/Jun/2026:01:50:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T01:51:43.7262964Z 169.254.129.4 - - [24/Jun/2026:01:51:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T01:52:43.7251016Z 169.254.129.4 - - [24/Jun/2026:01:52:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T01:53:43.7284656Z 169.254.129.4 - - [24/Jun/2026:01:53:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T01:54:43.7239475Z 169.254.129.4 - - [24/Jun/2026:01:54:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T01:55:43.7239726Z 169.254.129.4 - - [24/Jun/2026:01:55:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T01:56:43.7230321Z 169.254.129.4 - - [24/Jun/2026:01:56:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T01:57:43.7280248Z 169.254.129.4 - - [24/Jun/2026:01:57:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T01:58:43.7272983Z 169.254.129.4 - - [24/Jun/2026:01:58:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T01:59:43.7228521Z 169.254.129.4 - - [24/Jun/2026:01:59:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:00:43.7237174Z 169.254.129.4 - - [24/Jun/2026:02:00:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:01:43.7268634Z 169.254.129.4 - - [24/Jun/2026:02:01:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:02:43.7256690Z 169.254.129.4 - - [24/Jun/2026:02:02:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:03:43.7269794Z 169.254.129.4 - - [24/Jun/2026:02:03:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:04:43.7283635Z 169.254.129.4 - - [24/Jun/2026:02:04:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:05:43.7244397Z 169.254.129.4 - - [24/Jun/2026:02:05:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:06:43.7248102Z 169.254.129.4 - - [24/Jun/2026:02:06:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:07:43.7253306Z 169.254.129.4 - - [24/Jun/2026:02:07:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:08:43.7233739Z 169.254.129.4 - - [24/Jun/2026:02:08:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:09:43.7259206Z 169.254.129.4 - - [24/Jun/2026:02:09:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:10:43.7227531Z 169.254.129.4 - - [24/Jun/2026:02:10:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:11:43.7252095Z 169.254.129.4 - - [24/Jun/2026:02:11:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:12:43.7248098Z 169.254.129.4 - - [24/Jun/2026:02:12:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:13:43.7251379Z 169.254.129.4 - - [24/Jun/2026:02:13:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:14:43.7245790Z 169.254.129.4 - - [24/Jun/2026:02:14:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:15:43.7224536Z 169.254.129.4 - - [24/Jun/2026:02:15:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:16:43.7240632Z 169.254.129.4 - - [24/Jun/2026:02:16:43 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:17:59.8190984Z [Previous Container] [2026-06-24 02:17:59 +0000] [1] [INFO] Handling signal: term
+2026-06-24T02:17:59.8237103Z [Previous Container] [2026-06-24 02:17:59 +0000] [7] [INFO] Worker exiting (pid: 7)
+2026-06-24T02:17:59.8263161Z [Previous Container] [2026-06-24 02:17:59 +0000] [8] [INFO] Worker exiting (pid: 8)
+2026-06-24T02:18:01.6475465Z [Previous Container] [2026-06-24 02:18:01 +0000] [1] [INFO] Shutting down: Master
+2026-06-24T02:18:43.3932601Z [2026-06-24 02:18:43 +0000] [1] [INFO] Starting gunicorn 25.0.3
+2026-06-24T02:18:43.3961326Z [2026-06-24 02:18:43 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+2026-06-24T02:18:43.3961701Z [2026-06-24 02:18:43 +0000] [1] [INFO] Using worker: gthread
+2026-06-24T02:18:43.4012856Z [2026-06-24 02:18:43 +0000] [7] [INFO] Booting worker with pid: 7
+2026-06-24T02:18:43.4048689Z [2026-06-24 02:18:43 +0000] [8] [INFO] Booting worker with pid: 8
+2026-06-24T02:18:53.1202245Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.1211739Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.1217658Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'embed', 'plugin_name': 'EmbeddingModelPlugin'}
+2026-06-24T02:18:53.1263851Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.1267631Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.1271817Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'embed', 'plugin_name': 'EmbeddingModelPlugin'}
+2026-06-24T02:18:53.2472059Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.2477755Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.2489055Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_tabular_files', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:53.2545592Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.2548032Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.2549278Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_tabular_files', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:53.3010992Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.3014437Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.3015909Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'describe_tabular_file', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:53.3283415Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.3287177Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.3289147Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'lookup_value', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:53.3385704Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.3391179Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.3393028Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'describe_tabular_file', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:53.3570068Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.3579167Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_distinct_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:53.3586730Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.3863488Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.3866953Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.3868272Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:53.4067736Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.4070075Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.4077285Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'lookup_value', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:53.4307467Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.4309528Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.4311326Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'aggregate_column', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:53.4569879Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.4570627Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.4573315Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:53.4844447Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.4845471Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.4847570Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'search_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:53.4946035Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.4946704Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.4949767Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_distinct_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:53.5135865Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.5136752Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.5138825Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_tabular_data', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:53.5411256Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.5410718Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.5414105Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:53.5664081Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.5665669Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.5668874Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:53.5714795Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.5715124Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.5715356Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:53.5992226Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.5993749Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.6000960Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_aggregate', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:53.6273316Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.6274902Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.6277261Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_datetime_component', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:53.6414749Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.6414993Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.6416450Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'aggregate_column', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:53.7151288Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.7182380Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.7204041Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:53.7928831Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.7944983Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'search_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:53.7983096Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.8395209Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.8405928Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_available_operations', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T02:18:53.8412660Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.8685964Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.8686556Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.8686976Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.8686978Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.8687098Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_tabular_data', 'plugin_name': 'TabularProcessingPlugin'}[Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_available_apis', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T02:18:53.8687250Z 
+2026-06-24T02:18:53.8951432Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.8953133Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.8955708Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'call_operation', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T02:18:53.9297612Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.9301099Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.9303751Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_database_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T02:18:53.9386190Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.9392097Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.9393620Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:53.9562404Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.9564669Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.9570212Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T02:18:53.9845999Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:53.9849557Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:53.9854643Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_list', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T02:18:54.0109465Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:54.0110886Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:54.0112531Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:54.0173897Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:54.0177085Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:54.0178335Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:18:54.0462477Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:54.0465794Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_scalar', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:18:54.0466657Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:54.0735523Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:54.0738963Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:54.0744468Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'validate_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:18:54.0787104Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:54.0788134Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:54.0794141Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_aggregate', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:54.1015980Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:54.1017836Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:54.1025373Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_database', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:18:54.1469302Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:54.1472492Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:54.1475403Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_datetime_component', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:18:54.1557363Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:54.1557969Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:54.1560430Z [Log] [SK Loader] Starting loader imports -- None
+2026-06-24T02:18:54.1560939Z [SK Loader] Starting loader imports
+2026-06-24T02:18:54.3634468Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:54.3645455Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:54.3656507Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_available_operations', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T02:18:54.4394812Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:54.4446060Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:54.4446956Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_available_apis', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T02:18:54.5152353Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:54.5162879Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:54.5174271Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'call_operation', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T02:18:54.5870365Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:54.5882264Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:54.5892820Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_database_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T02:18:54.6591250Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:54.6600257Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:54.6610942Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T02:18:54.7309790Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:54.7337912Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_list', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T02:18:54.7338428Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:54.8071364Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:54.8083137Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:54.8097775Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:18:54.8855494Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:54.8856082Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:54.8856854Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_scalar', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:18:54.9584608Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:54.9585541Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:54.9598578Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'validate_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:18:54.9709044Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:54.9713274Z [Log] [SK Loader] Completed imports -- None
+2026-06-24T02:18:54.9714740Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:54.9714910Z [SK Loader] Completed imports
+2026-06-24T02:18:55.0274609Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:55.0291782Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:55.0313347Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_database', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:18:55.1114866Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:55.1128172Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:55.1147848Z [Log] [SK Loader] Starting loader imports -- None
+2026-06-24T02:18:55.1155828Z [SK Loader] Starting loader imports
+2026-06-24T02:18:56.2294926Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:56.2295921Z [Log] [SK Loader] Completed imports -- None
+2026-06-24T02:18:56.2296350Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:56.2296498Z [SK Loader] Completed imports
+2026-06-24T02:18:56.4733842Z Warning: pydub not available. Audio conversion may fail for non-WAV formats.
+2026-06-24T02:18:56.8848078Z Warning: pydub not available. Audio conversion may fail for non-WAV formats.
+2026-06-24T02:18:56.9498427Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:56.9500282Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:56.9510460Z [Log] App settings loaded from Cosmos DB (forced). -- {'settings_source': 'cosmos_forced', 'use_cosmos': True}
+2026-06-24T02:18:56.9511376Z App settings loaded from Cosmos DB (forced).
+2026-06-24T02:18:57.3514722Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:18:57.3534435Z [Log] App settings loaded from Cosmos DB (forced). -- {'settings_source': 'cosmos_forced', 'use_cosmos': True}
+2026-06-24T02:18:57.3535502Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:18:57.3535653Z App settings loaded from Cosmos DB (forced).
+2026-06-24T02:19:04.5540513Z Initializing application...
+2026-06-24T02:19:04.6421436Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:19:04.6424751Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:19:04.6429149Z [Log] App settings loaded from Cosmos DB (forced). -- {'settings_source': 'cosmos_forced', 'use_cosmos': True}
+2026-06-24T02:19:04.6430704Z App settings loaded from Cosmos DB (forced).
+2026-06-24T02:19:04.6476279Z Preserving existing custom_logo.png; no custom logo base64 value found in settings.
+2026-06-24T02:19:04.6478461Z Preserving existing custom_logo_dark.png; no custom dark logo base64 value found in settings.
+2026-06-24T02:19:04.6479664Z Setting up Application Insights logging...
+2026-06-24T02:19:04.7305563Z Exporter is missing a valid region.
+2026-06-24T02:19:04.7369107Z Exporter is missing a valid region.
+2026-06-24T02:19:04.8247765Z [Azure Monitor] Application Insights enabled for 'azure_monitor' logger
+2026-06-24T02:19:04.8248880Z [Azure Monitor] Testing exception capture...
+2026-06-24T02:19:04.8271029Z [Azure Monitor] Exception capture test completed
+2026-06-24T02:19:04.8563222Z At least one global agent already exists.
+2026-06-24T02:19:04.8599938Z Logging timer background task started.
+2026-06-24T02:19:04.8602700Z Approval expiration background task started.
+2026-06-24T02:19:04.8639586Z Retention policy background task started.
+2026-06-24T02:19:04.8671543Z Application initialized.
+2026-06-24T02:19:04.8922493Z 169.254.129.1 - - [24/Jun/2026:02:19:04 +0000] "GET /robots933456.txt HTTP/1.1" 200 0 "-" "HealthCheck/1.0"
+2026-06-24T02:20:04.9170619Z Initializing application...
+2026-06-24T02:20:05.0387661Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:20:05.0387821Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:20:05.0394090Z App settings loaded from Cosmos DB (forced).
+2026-06-24T02:20:05.0395198Z [Log] App settings loaded from Cosmos DB (forced). -- {'settings_source': 'cosmos_forced', 'use_cosmos': True}
+2026-06-24T02:20:05.0426436Z Preserving existing custom_logo.png; no custom logo base64 value found in settings.
+2026-06-24T02:20:05.0426872Z Preserving existing custom_logo_dark.png; no custom dark logo base64 value found in settings.
+2026-06-24T02:20:05.0428767Z Setting up Application Insights logging...
+2026-06-24T02:20:05.0905650Z Exporter is missing a valid region.
+2026-06-24T02:20:05.0963597Z Exporter is missing a valid region.
+2026-06-24T02:20:05.1821313Z [Azure Monitor] Application Insights enabled for 'azure_monitor' logger
+2026-06-24T02:20:05.1822272Z [Azure Monitor] Testing exception capture...
+2026-06-24T02:20:05.1837806Z [Azure Monitor] Exception capture test completed
+2026-06-24T02:20:05.2152832Z At least one global agent already exists.
+2026-06-24T02:20:05.2232451Z Logging timer background task started.
+2026-06-24T02:20:05.2233025Z Approval expiration background task started.
+2026-06-24T02:20:05.2284074Z Retention policy background task started.
+2026-06-24T02:20:05.2294550Z Application initialized.
+2026-06-24T02:20:05.2389940Z 169.254.129.3 - - [24/Jun/2026:02:20:05 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:21:04.8908304Z 169.254.129.3 - - [24/Jun/2026:02:21:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:22:04.8941519Z 169.254.129.3 - - [24/Jun/2026:02:22:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:23:04.8939887Z 169.254.129.3 - - [24/Jun/2026:02:23:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:24:04.8943373Z 169.254.129.3 - - [24/Jun/2026:02:24:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:25:04.8914525Z 169.254.129.3 - - [24/Jun/2026:02:25:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:26:04.8967392Z 169.254.129.3 - - [24/Jun/2026:02:26:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:27:04.8934893Z 169.254.129.3 - - [24/Jun/2026:02:27:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:28:04.8986926Z 169.254.129.3 - - [24/Jun/2026:02:28:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:29:04.8918891Z 169.254.129.3 - - [24/Jun/2026:02:29:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:30:04.8946466Z 169.254.129.3 - - [24/Jun/2026:02:30:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:31:04.8953674Z 169.254.129.3 - - [24/Jun/2026:02:31:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:32:04.8942961Z 169.254.129.3 - - [24/Jun/2026:02:32:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:33:04.8919320Z 169.254.129.3 - - [24/Jun/2026:02:33:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:34:04.8929587Z 169.254.129.3 - - [24/Jun/2026:02:34:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:35:04.8921145Z 169.254.129.3 - - [24/Jun/2026:02:35:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:36:04.8933112Z 169.254.129.3 - - [24/Jun/2026:02:36:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:37:04.8934350Z 169.254.129.3 - - [24/Jun/2026:02:37:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:38:04.8988991Z 169.254.129.3 - - [24/Jun/2026:02:38:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:39:04.8913845Z 169.254.129.3 - - [24/Jun/2026:02:39:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:40:04.8915822Z 169.254.129.3 - - [24/Jun/2026:02:40:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:41:04.8905848Z 169.254.129.3 - - [24/Jun/2026:02:41:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:42:04.8926819Z 169.254.129.3 - - [24/Jun/2026:02:42:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:43:04.8935198Z 169.254.129.3 - - [24/Jun/2026:02:43:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:44:04.8958118Z 169.254.129.3 - - [24/Jun/2026:02:44:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:45:04.8883702Z 169.254.129.3 - - [24/Jun/2026:02:45:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:46:04.8914664Z 169.254.129.3 - - [24/Jun/2026:02:46:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:47:04.8939662Z 169.254.129.3 - - [24/Jun/2026:02:47:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:48:04.8936465Z 169.254.129.3 - - [24/Jun/2026:02:48:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:49:04.8900261Z 169.254.129.3 - - [24/Jun/2026:02:49:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:50:04.8955512Z 169.254.129.3 - - [24/Jun/2026:02:50:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:51:04.8925352Z 169.254.129.3 - - [24/Jun/2026:02:51:04 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:51:30.4461450Z [2026-06-24 02:51:30 +0000] [1] [INFO] Starting gunicorn 25.0.3
+2026-06-24T02:51:30.4478163Z [2026-06-24 02:51:30 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+2026-06-24T02:51:30.4478456Z [2026-06-24 02:51:30 +0000] [1] [INFO] Using worker: gthread
+2026-06-24T02:51:30.4510059Z [2026-06-24 02:51:30 +0000] [7] [INFO] Booting worker with pid: 7
+2026-06-24T02:51:30.5276278Z [2026-06-24 02:51:30 +0000] [8] [INFO] Booting worker with pid: 8
+2026-06-24T02:51:40.6367725Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:40.6374247Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:40.6382265Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'embed', 'plugin_name': 'EmbeddingModelPlugin'}
+2026-06-24T02:51:40.6402687Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:40.6417552Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:40.6419480Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'embed', 'plugin_name': 'EmbeddingModelPlugin'}
+2026-06-24T02:51:40.7797340Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:40.7802263Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:40.7803522Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_tabular_files', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:40.7993858Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:40.7995289Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:40.8000559Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_tabular_files', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:40.8263302Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:40.8264553Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:40.8269274Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'describe_tabular_file', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:40.8413355Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:40.8418598Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'describe_tabular_file', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:40.8421683Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:40.8724486Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:40.8725317Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:40.8729206Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:40.8729541Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:40.8729655Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'lookup_value', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:40.8729736Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'lookup_value', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:40.8968971Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:40.8969705Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:40.8977050Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_distinct_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:40.9015029Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:40.9017479Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:40.9020417Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_distinct_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:40.9249728Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:40.9250662Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:40.9255325Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:40.9292714Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:40.9293854Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:40.9296851Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:40.9516914Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:40.9517982Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:40.9524842Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'aggregate_column', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:40.9571243Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:40.9572185Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:40.9576589Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'aggregate_column', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:40.9779367Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:40.9780230Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:40.9788023Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:40.9854081Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:40.9855105Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:40.9858582Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:41.0056489Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.0057366Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.0062139Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'search_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:41.0129014Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.0129881Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.0134896Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'search_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:41.0320201Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.0320874Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.0332526Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_tabular_data', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:41.0442822Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.0442941Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.0443243Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_tabular_data', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:41.0669506Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.0672742Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.0675980Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:41.0815466Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.0821101Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.0826267Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:41.0941944Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.0943073Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.0948204Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:41.1111430Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.1114457Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.1118269Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:41.1231746Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.1232780Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.1234540Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_aggregate', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:41.1387744Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.1388359Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.1393815Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_aggregate', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:41.1504852Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.1505746Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.1510163Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_datetime_component', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:41.1691778Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.1692107Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.1692349Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_datetime_component', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:51:41.4264146Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.4274915Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.4282248Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.4282248Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.4282614Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_available_operations', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T02:51:41.4292396Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_available_operations', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T02:51:41.4566211Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}[Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.4567236Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.4572544Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_available_apis', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T02:51:41.4574082Z 
+2026-06-24T02:51:41.4577287Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.4584055Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_available_apis', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T02:51:41.4858657Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.4862857Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.4877355Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'call_operation', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T02:51:41.4890310Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.4893619Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.4934805Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'call_operation', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T02:51:41.5268720Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.5273961Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.5280394Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_database_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T02:51:41.5282312Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.5283519Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.5285870Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_database_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T02:51:41.5575625Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.5576607Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T02:51:41.5576715Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.5576833Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T02:51:41.5577103Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.5577258Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.5825496Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.5828714Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.5829058Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_list', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T02:51:41.5845443Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.5847403Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.5851255Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_list', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T02:51:41.6209782Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.6212822Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.6216523Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:51:41.6230987Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.6256101Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.6261175Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:51:41.6535517Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.6542951Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.6543889Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_scalar', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:51:41.6580950Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.6581641Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.6583659Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_scalar', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:51:41.6813114Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.6814116Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.6817252Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'validate_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:51:41.6851247Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.6864652Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.6868771Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'validate_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:51:41.7089079Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.7088607Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.7096935Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_database', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:51:41.7134084Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.7134084Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.7134408Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_database', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:51:41.7877694Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.7877694Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.7888611Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:41.7892104Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:41.7894892Z [Log] [SK Loader] Starting loader imports -- None
+2026-06-24T02:51:41.7897020Z [SK Loader] Starting loader imports
+2026-06-24T02:51:41.7907151Z [Log] [SK Loader] Starting loader imports -- None
+2026-06-24T02:51:41.7915346Z [SK Loader] Starting loader imports
+2026-06-24T02:51:42.8828784Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:42.8838012Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:42.8847643Z [Log] [SK Loader] Completed imports -- None
+2026-06-24T02:51:42.8858353Z [SK Loader] Completed imports
+2026-06-24T02:51:42.9425944Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:42.9432514Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:42.9437015Z [Log] [SK Loader] Completed imports -- None
+2026-06-24T02:51:42.9438785Z [SK Loader] Completed imports
+2026-06-24T02:51:44.4789754Z Warning: pydub not available. Audio conversion may fail for non-WAV formats.
+2026-06-24T02:51:44.4845916Z Warning: pydub not available. Audio conversion may fail for non-WAV formats.
+2026-06-24T02:51:44.9772139Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:44.9777987Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:44.9784239Z [Log] App settings loaded from Cosmos DB (forced). -- {'settings_source': 'cosmos_forced', 'use_cosmos': True}
+2026-06-24T02:51:44.9785336Z App settings loaded from Cosmos DB (forced).
+2026-06-24T02:51:44.9921548Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:44.9923213Z [Log] App settings loaded from Cosmos DB (forced). -- {'settings_source': 'cosmos_forced', 'use_cosmos': True}
+2026-06-24T02:51:44.9926249Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:44.9926584Z App settings loaded from Cosmos DB (forced).
+2026-06-24T02:51:53.0632084Z Initializing application...
+2026-06-24T02:51:53.1553249Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:51:53.1559199Z [Log] App settings loaded from Cosmos DB (forced). -- {'settings_source': 'cosmos_forced', 'use_cosmos': True}
+2026-06-24T02:51:53.1559303Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:51:53.1564731Z App settings loaded from Cosmos DB (forced).
+2026-06-24T02:51:53.1867349Z Preserving existing custom_logo.png; no custom logo base64 value found in settings.
+2026-06-24T02:51:53.1879972Z Preserving existing custom_logo_dark.png; no custom dark logo base64 value found in settings.
+2026-06-24T02:51:53.1888794Z Setting up Application Insights logging...
+2026-06-24T02:51:53.3463506Z Exporter is missing a valid region.
+2026-06-24T02:51:53.3525693Z Exporter is missing a valid region.
+2026-06-24T02:51:53.4185487Z [Azure Monitor] Application Insights enabled for 'azure_monitor' logger
+2026-06-24T02:51:53.4186469Z [Azure Monitor] Testing exception capture...
+2026-06-24T02:51:53.4199971Z [Azure Monitor] Exception capture test completed
+2026-06-24T02:51:53.4476817Z At least one global agent already exists.
+2026-06-24T02:51:53.4503831Z Logging timer background task started.
+2026-06-24T02:51:53.4526090Z Approval expiration background task started.
+2026-06-24T02:51:53.4548040Z Retention policy background task started.
+2026-06-24T02:51:53.4558548Z Application initialized.
+2026-06-24T02:51:53.4766138Z 169.254.129.3 - - [24/Jun/2026:02:51:53 +0000] "GET /external/healthcheck HTTP/1.1" 400 53 "-" "HealthCheck/1.0"
+2026-06-24T02:52:04.9178011Z Initializing application...
+2026-06-24T02:52:04.9954677Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:52:04.9956018Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:52:04.9958355Z [Log] App settings loaded from Cosmos DB (forced). -- {'settings_source': 'cosmos_forced', 'use_cosmos': True}
+2026-06-24T02:52:04.9959135Z App settings loaded from Cosmos DB (forced).
+2026-06-24T02:52:05.0002203Z Preserving existing custom_logo.png; no custom logo base64 value found in settings.
+2026-06-24T02:52:05.0002659Z Preserving existing custom_logo_dark.png; no custom dark logo base64 value found in settings.
+2026-06-24T02:52:05.0002714Z Setting up Application Insights logging...
+2026-06-24T02:52:05.0462388Z Exporter is missing a valid region.
+2026-06-24T02:52:05.0499794Z Exporter is missing a valid region.
+2026-06-24T02:52:05.1094878Z [Azure Monitor] Application Insights enabled for 'azure_monitor' logger
+2026-06-24T02:52:05.1103884Z [Azure Monitor] Testing exception capture...
+2026-06-24T02:52:05.1104053Z [Azure Monitor] Exception capture test completed
+2026-06-24T02:52:05.1390064Z At least one global agent already exists.
+2026-06-24T02:52:05.1418924Z Logging timer background task started.
+2026-06-24T02:52:05.1451376Z Approval expiration background task started.
+2026-06-24T02:52:05.1469305Z Retention policy background task started.
+2026-06-24T02:52:05.1480819Z Application initialized.
+2026-06-24T02:52:05.1545604Z 169.254.129.9 - - [24/Jun/2026:02:52:05 +0000] "GET /external/healthcheck HTTP/1.1" 200 19 "-" "HealthCheck/1.0"
+2026-06-24T02:52:17.8464376Z [Previous Container] [2026-06-24 02:52:17 +0000] [1] [INFO] Handling signal: term
+2026-06-24T02:52:17.8522019Z [Previous Container] [2026-06-24 02:52:17 +0000] [8] [INFO] Worker exiting (pid: 8)
+2026-06-24T02:52:53.4765203Z 169.254.129.9 - - [24/Jun/2026:02:52:53 +0000] "GET /external/healthcheck HTTP/1.1" 200 19 "-" "HealthCheck/1.0"
+2026-06-24T02:53:53.4721696Z 169.254.129.9 - - [24/Jun/2026:02:53:53 +0000] "GET /external/healthcheck HTTP/1.1" 200 19 "-" "HealthCheck/1.0"
+2026-06-24T02:54:53.4799456Z 169.254.129.9 - - [24/Jun/2026:02:54:53 +0000] "GET /external/healthcheck HTTP/1.1" 200 19 "-" "HealthCheck/1.0"
+2026-06-24T02:55:53.4769671Z 169.254.129.9 - - [24/Jun/2026:02:55:53 +0000] "GET /external/healthcheck HTTP/1.1" 200 19 "-" "HealthCheck/1.0"
+2026-06-24T02:56:53.4754040Z 169.254.129.9 - - [24/Jun/2026:02:56:53 +0000] "GET /external/healthcheck HTTP/1.1" 200 19 "-" "HealthCheck/1.0"
+2026-06-24T02:57:53.4715403Z 169.254.129.9 - - [24/Jun/2026:02:57:53 +0000] "GET /external/healthcheck HTTP/1.1" 200 19 "-" "HealthCheck/1.0"
+2026-06-24T02:58:45.4368261Z [2026-06-24 02:58:45 +0000] [1] [INFO] Starting gunicorn 25.0.3
+2026-06-24T02:58:45.4422342Z [2026-06-24 02:58:45 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+2026-06-24T02:58:45.4436116Z [2026-06-24 02:58:45 +0000] [1] [INFO] Using worker: gthread
+2026-06-24T02:58:45.4486666Z [2026-06-24 02:58:45 +0000] [7] [INFO] Booting worker with pid: 7
+2026-06-24T02:58:45.4667814Z [2026-06-24 02:58:45 +0000] [8] [INFO] Booting worker with pid: 8
+2026-06-24T02:58:53.4858502Z 169.254.129.9 - - [24/Jun/2026:02:58:53 +0000] "GET /external/healthcheck HTTP/1.1" 200 19 "-" "HealthCheck/1.0"
+2026-06-24T02:58:53.4893089Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:53.4897956Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:53.4907791Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'embed', 'plugin_name': 'EmbeddingModelPlugin'}
+2026-06-24T02:58:53.6213806Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:53.6218424Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:53.6222395Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_tabular_files', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:53.6505311Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:53.6506901Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:53.6510791Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'describe_tabular_file', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:53.6784867Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:53.6790244Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:53.6797618Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'lookup_value', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:53.7099565Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:53.7104239Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:53.7111236Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_distinct_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:53.7417602Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:53.7429387Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:53.7448439Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:53.7758364Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:53.7768599Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'aggregate_column', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:53.7768596Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:53.8057801Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:53.8061727Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:53.8075692Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:53.8376975Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:53.8376975Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:53.8399127Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'search_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:53.8732165Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:53.8750843Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:53.8766444Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_tabular_data', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:53.9072579Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:53.9075415Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:53.9080368Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:53.9370204Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:53.9385924Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:53.9406531Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:53.9716433Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:53.9717382Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:53.9725443Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_aggregate', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:54.0012428Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:54.0049032Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:54.0051464Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_datetime_component', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:54.3016195Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:54.3017210Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_available_operations', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T02:58:54.3029141Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:54.3281314Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:54.3297879Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:54.3316363Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_available_apis', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T02:58:54.3613267Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:54.3633302Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:54.3645812Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'call_operation', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T02:58:54.4046444Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:54.4062033Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:54.4078797Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_database_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T02:58:54.4366678Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:54.4371012Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:54.4401462Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T02:58:54.4646452Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:54.4650379Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:54.4652454Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_list', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T02:58:54.5016457Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:54.5018259Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:54.5019722Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:58:54.5349623Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:54.5353127Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:54.5358134Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_scalar', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:58:54.5673610Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:54.5696358Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'validate_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:58:54.5696974Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:54.5944681Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:54.5946217Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:54.5947838Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_database', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:58:54.6685189Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:54.6687376Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:54.6692016Z [Log] [SK Loader] Starting loader imports -- None
+2026-06-24T02:58:54.6693734Z [SK Loader] Starting loader imports
+2026-06-24T02:58:54.7134364Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:54.7135430Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'embed', 'plugin_name': 'EmbeddingModelPlugin'}
+2026-06-24T02:58:54.7136726Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:54.8112057Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:54.8112733Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:54.8118918Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_tabular_files', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:54.8831035Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:54.8832819Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:54.8837749Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'describe_tabular_file', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:54.9551720Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:54.9556417Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:54.9563779Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'lookup_value', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:55.0310751Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:55.0314426Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:55.0333036Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_distinct_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:55.1072257Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:55.1075449Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:55.1079633Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:55.1792054Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:55.1800753Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:55.1824022Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'aggregate_column', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:55.2552472Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:55.2564255Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:55.2568508Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:55.3312289Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:55.3334897Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:55.3335601Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'search_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:55.4029620Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:55.4031662Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:55.4047838Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_tabular_data', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:55.4723026Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:55.4724945Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:55.4725428Z [Log] [SK Loader] Completed imports -- None
+2026-06-24T02:58:55.4726062Z [SK Loader] Completed imports
+2026-06-24T02:58:55.4835287Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:55.4836325Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:55.4836542Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:55.5554828Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:55.5556690Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:55.5557541Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:55.6306957Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:55.6308679Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:55.6309726Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_aggregate', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:55.7095284Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:55.7096994Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:55.7097249Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_datetime_component', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T02:58:56.0045573Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:56.0073159Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_available_operations', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T02:58:56.0077266Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:56.0833244Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:56.0840406Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:56.0845760Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_available_apis', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T02:58:56.1551049Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:56.1576537Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:56.1577178Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'call_operation', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T02:58:56.2270254Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:56.2285366Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_database_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T02:58:56.2287292Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:56.2992904Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:56.2999145Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:56.3003807Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T02:58:56.3709673Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:56.3716509Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:56.3720726Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_list', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T02:58:56.4428699Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:56.4434942Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:56.4454459Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:58:56.5148087Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:56.5174318Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_scalar', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:58:56.5175091Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:56.5279667Z Warning: pydub not available. Audio conversion may fail for non-WAV formats.
+2026-06-24T02:58:56.5876440Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:56.5892487Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:56.5893077Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'validate_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:58:56.6682279Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:56.6689894Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:56.6706952Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_database', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T02:58:56.7552164Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:56.7558489Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:56.7563886Z [Log] [SK Loader] Starting loader imports -- None
+2026-06-24T02:58:56.7567095Z [SK Loader] Starting loader imports
+2026-06-24T02:58:56.9049027Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:56.9055337Z [Log] App settings loaded from Cosmos DB (forced). -- {'settings_source': 'cosmos_forced', 'use_cosmos': True}
+2026-06-24T02:58:56.9056450Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:56.9056652Z App settings loaded from Cosmos DB (forced).
+2026-06-24T02:58:57.9940305Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:57.9964774Z [Log] [SK Loader] Completed imports -- None
+2026-06-24T02:58:57.9967719Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:57.9967936Z [SK Loader] Completed imports
+2026-06-24T02:58:58.6422370Z Warning: pydub not available. Audio conversion may fail for non-WAV formats.
+2026-06-24T02:58:59.1576914Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:58:59.1577762Z App settings loaded from Cosmos DB (forced).
+2026-06-24T02:58:59.1578229Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:58:59.1578408Z [Log] App settings loaded from Cosmos DB (forced). -- {'settings_source': 'cosmos_forced', 'use_cosmos': True}
+2026-06-24T02:59:04.9164917Z Initializing application...
+2026-06-24T02:59:04.9728450Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T02:59:04.9734180Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T02:59:04.9740381Z [Log] App settings loaded from Cosmos DB (forced). -- {'settings_source': 'cosmos_forced', 'use_cosmos': True}
+2026-06-24T02:59:04.9742349Z App settings loaded from Cosmos DB (forced).
+2026-06-24T02:59:04.9796239Z Preserving existing custom_logo.png; no custom logo base64 value found in settings.
+2026-06-24T02:59:04.9797769Z Preserving existing custom_logo_dark.png; no custom dark logo base64 value found in settings.
+2026-06-24T02:59:04.9798615Z Setting up Application Insights logging...
+2026-06-24T02:59:05.0655252Z Exporter is missing a valid region.
+2026-06-24T02:59:05.0714010Z Exporter is missing a valid region.
+2026-06-24T02:59:05.1539425Z [Azure Monitor] Application Insights enabled for 'azure_monitor' logger
+2026-06-24T02:59:05.1542885Z [Azure Monitor] Testing exception capture...
+2026-06-24T02:59:05.1556173Z [Azure Monitor] Exception capture test completed
+2026-06-24T02:59:05.1935070Z At least one global agent already exists.
+2026-06-24T02:59:05.2047935Z Logging timer background task started.
+2026-06-24T02:59:05.2060555Z Approval expiration background task started.
+2026-06-24T02:59:05.2148323Z Retention policy background task started.
+2026-06-24T02:59:05.2167048Z Application initialized.
+2026-06-24T02:59:05.2388161Z 169.254.129.1 - - [24/Jun/2026:02:59:05 +0000] "GET /robots933456.txt HTTP/1.1" 200 0 "-" "HealthCheck/1.0"
+2026-06-24T02:59:05.2531751Z 169.254.129.9 - - [24/Jun/2026:02:59:05 +0000] "GET /external/healthcheck HTTP/1.1" 200 19 "-" "HealthCheck/1.0"
+2026-06-24T02:59:28.7401713Z [Previous Container] [2026-06-24 02:59:28 +0000] [1] [INFO] Handling signal: term
+2026-06-24T02:59:28.7464687Z [Previous Container] [2026-06-24 02:59:28 +0000] [8] [INFO] Worker exiting (pid: 8)
+2026-06-24T03:00:05.2706317Z 169.254.129.4 - - [24/Jun/2026:03:00:05 +0000] "GET /external/healthcheck HTTP/1.1" 200 19 "-" "HealthCheck/1.0"
+2026-06-24T03:00:52.1944284Z [Previous Container] [2026-06-24 03:00:52 +0000] [1] [INFO] Handling signal: term
+2026-06-24T03:00:52.1990502Z [Previous Container] [2026-06-24 03:00:52 +0000] [7] [INFO] Worker exiting (pid: 7)
+2026-06-24T03:01:28.3881596Z [2026-06-24 03:01:28 +0000] [1] [INFO] Starting gunicorn 25.0.3
+2026-06-24T03:01:28.3903316Z [2026-06-24 03:01:28 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+2026-06-24T03:01:28.3903578Z [2026-06-24 03:01:28 +0000] [1] [INFO] Using worker: gthread
+2026-06-24T03:01:28.3930527Z [2026-06-24 03:01:28 +0000] [7] [INFO] Booting worker with pid: 7
+2026-06-24T03:01:28.4193270Z [2026-06-24 03:01:28 +0000] [8] [INFO] Booting worker with pid: 8
+2026-06-24T03:01:36.2760848Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.2783794Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'embed', 'plugin_name': 'EmbeddingModelPlugin'}
+2026-06-24T03:01:36.2785071Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.4113131Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.4120401Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.4122460Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_tabular_files', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.4390220Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.4389626Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.4398655Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'describe_tabular_file', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.4442991Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.4448291Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.4494488Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'embed', 'plugin_name': 'EmbeddingModelPlugin'}
+2026-06-24T03:01:36.4661420Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.4662157Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.4669609Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'lookup_value', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.4775000Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.4775940Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.4779653Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_tabular_files', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.4934310Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.4933292Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.4942664Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_distinct_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.5056513Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.5057522Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.5062669Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'describe_tabular_file', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.5213793Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.5214676Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.5219640Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.5325823Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.5326712Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.5332171Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'lookup_value', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.5491239Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.5492071Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.5499588Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'aggregate_column', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.5589077Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.5589928Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.5595933Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_distinct_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.5749570Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.5750933Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.5754237Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.5865016Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.5865810Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.5873094Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.6023490Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.6024552Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.6028423Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'search_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.6143752Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.6144685Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.6148522Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'aggregate_column', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.6296790Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.6301307Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.6303947Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_tabular_data', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.6406680Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.6415318Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.6416695Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.6584884Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.6587331Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.6588439Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.6684210Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.6686251Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.6687587Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'search_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.6850625Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.6855453Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.6856707Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.6977373Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.6978399Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.6981290Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_tabular_data', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.7111117Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.7112050Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.7116596Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_aggregate', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.7247032Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.7247969Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.7251536Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.7368873Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.7372016Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.7376512Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_datetime_component', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.7514118Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.7515314Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.7518229Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.7808656Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.7810261Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.7866987Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_aggregate', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.8199588Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.8211761Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.8252455Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_datetime_component', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:01:36.9890997Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:36.9892756Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:36.9894580Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_available_operations', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T03:01:37.0168592Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:37.0170150Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:37.0171263Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_available_apis', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T03:01:37.0267529Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:37.0273974Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_available_operations', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T03:01:37.0275484Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:37.0443018Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:37.0443904Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:37.0448650Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'call_operation', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T03:01:37.0543343Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:37.0543898Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:37.0549139Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_available_apis', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T03:01:37.0765562Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:37.0766228Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:37.0773061Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_database_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T03:01:37.0816713Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:37.0817622Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:37.0822665Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'call_operation', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T03:01:37.1035081Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:37.1035776Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:37.1041782Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T03:01:37.1104410Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:37.1105280Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:37.1109030Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_database_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T03:01:37.1301363Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:37.1302071Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:37.1307346Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_list', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T03:01:37.1402530Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:37.1402530Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:37.1402902Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T03:01:37.1639301Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:37.1643172Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:37.1646144Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T03:01:37.1658093Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:37.1659864Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:37.1694898Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_list', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T03:01:37.1932490Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:37.1933250Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:37.1941829Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T03:01:37.1974273Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:37.1975381Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:37.1986069Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_scalar', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T03:01:37.2206978Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:37.2215990Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_scalar', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T03:01:37.2216553Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:37.2243607Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:37.2246821Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:37.2250421Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'validate_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T03:01:37.2484791Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:37.2486088Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:37.2491253Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'validate_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T03:01:37.2527158Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:37.2528562Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:37.2533985Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_database', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T03:01:37.2768563Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:37.2787211Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_database', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T03:01:37.2813900Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:37.3132058Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:37.3133969Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:37.3137546Z [Log] [SK Loader] Starting loader imports -- None
+2026-06-24T03:01:37.3138800Z [SK Loader] Starting loader imports
+2026-06-24T03:01:37.3149885Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:37.3160533Z [Log] [SK Loader] Starting loader imports -- None
+2026-06-24T03:01:37.3174242Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:37.3174608Z [SK Loader] Starting loader imports
+2026-06-24T03:01:38.4335756Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:38.4336974Z [SK Loader] Completed imports
+2026-06-24T03:01:38.4337820Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:38.4338075Z [Log] [SK Loader] Completed imports -- None
+2026-06-24T03:01:38.5733358Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:38.5751233Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:38.5768532Z [Log] [SK Loader] Completed imports -- None
+2026-06-24T03:01:38.5779141Z [SK Loader] Completed imports
+2026-06-24T03:01:40.0852977Z Warning: pydub not available. Audio conversion may fail for non-WAV formats.
+2026-06-24T03:01:40.0882910Z Warning: pydub not available. Audio conversion may fail for non-WAV formats.
+2026-06-24T03:01:40.5746863Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:40.5748109Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:40.5753207Z App settings loaded from Cosmos DB (forced).
+2026-06-24T03:01:40.5754899Z [Log] App settings loaded from Cosmos DB (forced). -- {'settings_source': 'cosmos_forced', 'use_cosmos': True}
+2026-06-24T03:01:40.5791465Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:40.5820512Z [Log] App settings loaded from Cosmos DB (forced). -- {'settings_source': 'cosmos_forced', 'use_cosmos': True}
+2026-06-24T03:01:40.5820512Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:40.5820835Z App settings loaded from Cosmos DB (forced).
+2026-06-24T03:01:48.3123496Z Initializing application...
+2026-06-24T03:01:48.3985078Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:01:48.3987947Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:01:48.3994007Z App settings loaded from Cosmos DB (forced).
+2026-06-24T03:01:48.3994073Z [Log] App settings loaded from Cosmos DB (forced). -- {'settings_source': 'cosmos_forced', 'use_cosmos': True}
+2026-06-24T03:01:48.4042543Z Preserving existing custom_logo.png; no custom logo base64 value found in settings.
+2026-06-24T03:01:48.4042917Z Preserving existing custom_logo_dark.png; no custom dark logo base64 value found in settings.
+2026-06-24T03:01:48.4043039Z Setting up Application Insights logging...
+2026-06-24T03:01:48.4650357Z Exporter is missing a valid region.
+2026-06-24T03:01:48.4684989Z Exporter is missing a valid region.
+2026-06-24T03:01:48.5214158Z [Azure Monitor] Application Insights enabled for 'azure_monitor' logger
+2026-06-24T03:01:48.5215107Z [Azure Monitor] Testing exception capture...
+2026-06-24T03:01:48.5224084Z [Azure Monitor] Exception capture test completed
+2026-06-24T03:01:48.5762780Z At least one global agent already exists.
+2026-06-24T03:01:48.5788953Z Logging timer background task started.
+2026-06-24T03:01:48.5816573Z Approval expiration background task started.
+2026-06-24T03:01:48.5835974Z Retention policy background task started.
+2026-06-24T03:01:48.5846453Z Application initialized.
+2026-06-24T03:01:48.5979113Z 169.254.129.1 - - [24/Jun/2026:03:01:48 +0000] "GET /robots933456.txt HTTP/1.1" 200 0 "-" "HealthCheck/1.0"
+2026-06-24T03:02:48.6326945Z Initializing application...
+2026-06-24T03:02:48.7219855Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:02:48.7225211Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:02:48.7254831Z App settings loaded from Cosmos DB (forced).
+2026-06-24T03:02:48.7255588Z [Log] App settings loaded from Cosmos DB (forced). -- {'settings_source': 'cosmos_forced', 'use_cosmos': True}
+2026-06-24T03:02:48.7266436Z Preserving existing custom_logo.png; no custom logo base64 value found in settings.
+2026-06-24T03:02:48.7269216Z Preserving existing custom_logo_dark.png; no custom dark logo base64 value found in settings.
+2026-06-24T03:02:48.7269405Z Setting up Application Insights logging...
+2026-06-24T03:02:48.7731964Z Exporter is missing a valid region.
+2026-06-24T03:02:48.7769167Z Exporter is missing a valid region.
+2026-06-24T03:02:48.8365110Z [Azure Monitor] Application Insights enabled for 'azure_monitor' logger
+2026-06-24T03:02:48.8366003Z [Azure Monitor] Testing exception capture...
+2026-06-24T03:02:48.8406326Z [Azure Monitor] Exception capture test completed
+2026-06-24T03:02:48.8871928Z At least one global agent already exists.
+2026-06-24T03:02:48.8900613Z Logging timer background task started.
+2026-06-24T03:02:48.8909781Z Approval expiration background task started.
+2026-06-24T03:02:48.8949683Z Retention policy background task started.
+2026-06-24T03:02:48.8964687Z Application initialized.
+2026-06-24T03:02:48.9059287Z 169.254.129.4 - - [24/Jun/2026:03:02:48 +0000] "GET /external/healthcheck HTTP/1.1" 200 19 "-" "HealthCheck/1.0"
+2026-06-24T03:03:48.6082349Z 169.254.129.4 - - [24/Jun/2026:03:03:48 +0000] "GET /external/healthcheck HTTP/1.1" 200 19 "-" "HealthCheck/1.0"
+2026-06-24T03:04:48.6100334Z 169.254.129.4 - - [24/Jun/2026:03:04:48 +0000] "GET /external/healthcheck HTTP/1.1" 200 19 "-" "HealthCheck/1.0"
+2026-06-24T03:05:48.6141570Z 169.254.129.4 - - [24/Jun/2026:03:05:48 +0000] "GET /external/healthcheck HTTP/1.1" 200 19 "-" "HealthCheck/1.0"
+2026-06-24T03:06:46.7918549Z [2026-06-24 03:06:46 +0000] [1] [INFO] Starting gunicorn 25.0.3
+2026-06-24T03:06:46.7953785Z [2026-06-24 03:06:46 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+2026-06-24T03:06:46.7954095Z [2026-06-24 03:06:46 +0000] [1] [INFO] Using worker: gthread
+2026-06-24T03:06:46.7999485Z [2026-06-24 03:06:46 +0000] [6] [INFO] Booting worker with pid: 6
+2026-06-24T03:06:46.8234903Z [2026-06-24 03:06:46 +0000] [7] [INFO] Booting worker with pid: 7
+2026-06-24T03:06:48.6230791Z 169.254.129.4 - - [24/Jun/2026:03:06:48 +0000] "GET /external/healthcheck HTTP/1.1" 200 19 "-" "HealthCheck/1.0"
+2026-06-24T03:06:55.5335973Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:55.5347319Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:55.5356522Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'embed', 'plugin_name': 'EmbeddingModelPlugin'}
+2026-06-24T03:06:55.6697208Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:55.6708618Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:55.6720504Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_tabular_files', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:55.7006821Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:55.7016861Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:55.7095400Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'describe_tabular_file', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:55.7446260Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:55.7456510Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:55.7472074Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'lookup_value', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:55.7841361Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:55.7853217Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:55.7866825Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_distinct_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:55.8172364Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:55.8182005Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:55.8192807Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:55.8489455Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:55.8507299Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:55.8522063Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'aggregate_column', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:55.8865599Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:55.8898086Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:55.8899247Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:55.9196455Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:55.9208920Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:55.9222174Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'search_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:55.9526031Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:55.9530887Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:55.9532680Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_tabular_data', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:55.9811446Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:55.9821278Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:55.9833721Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:56.0126324Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:56.0131875Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:56.0139297Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:56.0431835Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:56.0442605Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:56.0452793Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_aggregate', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:56.0752723Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:56.0764795Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:56.0781517Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_datetime_component', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:56.5619530Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:56.5631915Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:56.5641483Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'embed', 'plugin_name': 'EmbeddingModelPlugin'}
+2026-06-24T03:06:56.5811775Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:56.5812499Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_available_operations', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T03:06:56.5813107Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:56.6046196Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:56.6054171Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_available_apis', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T03:06:56.6081325Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:56.6340746Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:56.6342478Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:56.6354168Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'call_operation', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T03:06:56.6448853Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:56.6449957Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:56.6450413Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_tabular_files', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:56.6795543Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:56.6799239Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:56.6802585Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_database_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T03:06:56.7051676Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:56.7054210Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:56.7060506Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T03:06:56.7325100Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:56.7327351Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:56.7332740Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_list', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T03:06:56.7363688Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:56.7364134Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'describe_tabular_file', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:56.7365947Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:56.7700535Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:56.7701172Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:56.7707681Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T03:06:56.7982162Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:56.7990439Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_scalar', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T03:06:56.7993739Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:56.8064873Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:56.8068161Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:56.8071442Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'lookup_value', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:56.8233456Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:56.8234245Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:56.8238859Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'validate_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T03:06:56.8496487Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:56.8497790Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:56.8503593Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_database', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T03:06:56.8747219Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:56.8752838Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_distinct_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:56.8763129Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:56.9109147Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:56.9110910Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:56.9113749Z [Log] [SK Loader] Starting loader imports -- None
+2026-06-24T03:06:56.9127812Z [SK Loader] Starting loader imports
+2026-06-24T03:06:56.9472945Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:56.9503304Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:56.9504252Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:57.0274931Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:57.0276729Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:57.0276956Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'aggregate_column', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:57.0991040Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:57.0992455Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:57.0995397Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:57.1759850Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:57.1764501Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:57.1767589Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'search_rows', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:57.2615875Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:57.2622711Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:57.2623196Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_tabular_data', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:57.3313605Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:57.3327715Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:57.3347330Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'filter_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:57.4068238Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:57.4073715Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:57.4080951Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'count_rows_by_related_values', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:57.4791720Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:57.4804014Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:57.4817846Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_aggregate', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:57.5541610Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:57.5545838Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'group_by_datetime_component', 'plugin_name': 'TabularProcessingPlugin'}
+2026-06-24T03:06:57.5549924Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:57.7718443Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:57.7725583Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:57.7740378Z [Log] [SK Loader] Completed imports -- None
+2026-06-24T03:06:57.7741853Z [SK Loader] Completed imports
+2026-06-24T03:06:57.7803492Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:57.7814543Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_available_operations', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T03:06:57.7815346Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:57.8540012Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:57.8540012Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:57.8540874Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'list_available_apis', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T03:06:57.9230170Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:57.9243094Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:57.9259908Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'call_operation', 'plugin_name': 'OpenApiPlugin'}
+2026-06-24T03:06:58.0014268Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:58.0015778Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_database_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T03:06:58.0016468Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:58.0709288Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:58.0716442Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:58.0728518Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_schema', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T03:06:58.1452478Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:58.1452707Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:58.1453697Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'get_table_list', 'plugin_name': 'SQLSchemaPlugin'}
+2026-06-24T03:06:58.2163308Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:58.2175036Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:58.2192662Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T03:06:58.2915699Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:58.2927572Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:58.2944052Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'execute_scalar', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T03:06:58.3669324Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:58.3694248Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:58.3697805Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'validate_query', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T03:06:58.4415746Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:58.4416899Z [Log] [Plugin Function Logger] Decorating function for plugin -- {'function_name': 'query_database', 'plugin_name': 'SQLQueryPlugin'}
+2026-06-24T03:06:58.4421878Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:58.5243391Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:58.5244336Z [Log] [SK Loader] Starting loader imports -- None
+2026-06-24T03:06:58.5250924Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:58.5251284Z [SK Loader] Starting loader imports
+2026-06-24T03:06:59.0128461Z Warning: pydub not available. Audio conversion may fail for non-WAV formats.
+2026-06-24T03:06:59.4880562Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:59.4893187Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:59.4905841Z [Log] App settings loaded from Cosmos DB (forced). -- {'settings_source': 'cosmos_forced', 'use_cosmos': True}
+2026-06-24T03:06:59.4913371Z App settings loaded from Cosmos DB (forced).
+2026-06-24T03:06:59.7471609Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:06:59.7479728Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:06:59.7480140Z [SK Loader] Completed imports
+2026-06-24T03:06:59.7481053Z [Log] [SK Loader] Completed imports -- None
+2026-06-24T03:07:00.4707536Z Warning: pydub not available. Audio conversion may fail for non-WAV formats.
+2026-06-24T03:07:00.9671212Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:07:00.9671945Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:07:00.9674482Z [Log] App settings loaded from Cosmos DB (forced). -- {'settings_source': 'cosmos_forced', 'use_cosmos': True}
+2026-06-24T03:07:00.9675475Z App settings loaded from Cosmos DB (forced).
+2026-06-24T03:07:07.7261935Z Initializing application...
+2026-06-24T03:07:07.8094522Z [Log] App settings cache miss. Falling back to Cosmos DB. -- {'settings_source': 'cosmos_fallback', 'caller_file': '/app/functions_appinsights.py', 'caller_line': 46, 'caller_func': '_load_logging_settings'}
+2026-06-24T03:07:07.8096450Z App settings cache miss. Falling back to Cosmos DB.
+2026-06-24T03:07:07.8097487Z [Log] App settings loaded from Cosmos DB (forced). -- {'settings_source': 'cosmos_forced', 'use_cosmos': True}
+2026-06-24T03:07:07.8098416Z App settings loaded from Cosmos DB (forced).
+2026-06-24T03:07:07.8154364Z Preserving existing custom_logo.png; no custom logo base64 value found in settings.
+2026-06-24T03:07:07.8156641Z Preserving existing custom_logo_dark.png; no custom dark logo base64 value found in settings.
+2026-06-24T03:07:07.8156914Z Setting up Application Insights logging...
+2026-06-24T03:07:07.9394298Z Exporter is missing a valid region.
+2026-06-24T03:07:07.9443442Z Exporter is missing a valid region.
+2026-06-24T03:07:08.0336971Z [Azure Monitor] Application Insights enabled for 'azure_monitor' logger
+2026-06-24T03:07:08.0338370Z [Azure Monitor] Testing exception capture...
+2026-06-24T03:07:08.0360488Z [Azure Monitor] Exception capture test completed
+2026-06-24T03:07:08.0733251Z At least one global agent already exists.
+2026-06-24T03:07:08.1268439Z Logging timer background task started.
+2026-06-24T03:07:08.1269577Z Approval expiration background task started.
+2026-06-24T03:07:08.1487378Z Retention policy background task started.
+2026-06-24T03:07:08.1541946Z Application initialized.
+2026-06-24T03:07:08.1912470Z 169.254.129.1 - - [24/Jun/2026:03:07:08 +0000] "GET /robots933456.txt HTTP/1.1" 200 0 "-" "HealthCheck/1.0"
+2026-06-24T03:07:08.2761263Z 169.254.129.4 - - [24/Jun/2026:03:07:08 +0000] "GET /external/healthcheck HTTP/1.1" 200 19 "-" "HealthCheck/1.0"
+2026-06-24T03:07:33.8606566Z [Previous Container] [2026-06-24 03:07:33 +0000] [1] [INFO] Handling signal: term
+2026-06-24T03:07:33.8660589Z [Previous Container] [2026-06-24 03:07:33 +0000] [7] [INFO] Worker exiting (pid: 7)
